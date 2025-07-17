@@ -3946,7 +3946,30 @@ input, select, textarea {
 		}
 
 /* Footer */
-
+	.footer-container {
+	    display: flex;
+	    justify-content: space-around;
+	    align-items: flex-start;
+	    width: 100%;
+	    padding: 2rem 0;
+	}
+	
+	.footer-column {
+	    flex: 1;
+	    padding: 0 1rem;
+	    min-width: 200px;
+	}
+	
+	.footer-column h3 {
+	    text-transform: uppercase;
+	    font-size: 0.9rem;
+	    letter-spacing: 0.05rem;
+	}
+	
+	.footer-column p {
+	    line-height: 1.8;
+	    font-size: 0.8rem;
+	}
 	#footer {
 		color: #717981;
 		display: -moz-flex;
